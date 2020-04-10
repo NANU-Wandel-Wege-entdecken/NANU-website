@@ -10,9 +10,11 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
+        "koodimonni-language/core-de_de": "^5.4",
         "wordplate/framework": "^8.0",
         "wordplate/plate": "^6.0",
-        "koodimonni-language/core-de_de": "^5.4"
+        "wpackagist-plugin/clean-image-filenames": "1.2.1",
+        "wpackagist-plugin/safe-svg": "^1.9"
     },
     "config": {
         "optimize-autoloader": true,
@@ -53,5 +55,8 @@
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ]
+    },
+    "require-dev": {
+        "wpackagist-plugin/query-monitor": "^3.5"
     }
 }
