@@ -13,7 +13,7 @@ class PostTypes
      * @return
      */
 	public function register() {
-		add_action( 'init', array( $this, 'custom_post_type'), 10 , 4 );
+		//add_action( 'init', array( $this, 'custom_post_type'), 10 , 4 );
 		add_action( 'after_switch_theme', array( $this, 'rewrite_flush') );
 	}
 

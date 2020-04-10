@@ -1,5 +1,5 @@
 {
-  "name": "Nanu",
+  "name": "nanu",
   "version": "3.0.4",
   "description": "Alecaddd WordPress Starter Theme for savvy developers",
   "main": "index.js",
@@ -34,8 +34,6 @@
     "sass": "^1.17.0",
     "sass-loader": "7.*",
     "tailwindcss": "^0.7.4",
-    "vue": "^2.6.6",
-    "vue-template-compiler": "^2.6.6"
   },
   "repository": {
     "type": "git",
