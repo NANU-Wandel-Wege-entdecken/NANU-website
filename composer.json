@@ -11,7 +11,8 @@
     "require": {
         "php": "^7.2",
         "wordplate/framework": "^8.0",
-        "wordplate/plate": "^6.0"
+        "wordplate/plate": "^6.0",
+        "koodimonni-language/core-de_de": "^5.4"
     },
     "config": {
         "optimize-autoloader": true,
@@ -31,12 +32,21 @@
                 "type:wordpress-theme"
             ]
         },
-        "wordpress-install-dir": "public/wordpress"
+        "wordpress-install-dir": "public/wordpress",
+        "dropin-paths": {
+          "public/languages/": [
+              "vendor:koodimonni-language"
+          ]
+        }
     },
     "repositories": [
         {
             "type": "composer",
             "url": "https://wpackagist.org"
+        },
+        {
+            "type": "composer",
+            "url": "https://wp-languages.github.io"
         }
     ],
     "scripts": {
