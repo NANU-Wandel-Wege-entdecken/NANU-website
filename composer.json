@@ -10,6 +10,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
+        "advanced-custom-fields/advanced-custom-fields-pro": "^5.8",
         "koodimonni-language/core-de_de": "^5.4",
         "wordplate/framework": "^8.0",
         "wordplate/plate": "^6.0",
@@ -49,6 +50,22 @@
         {
             "type": "composer",
             "url": "https://wp-languages.github.io"
+        },
+        {
+          "type": "package",
+          "package": {
+            "name": "advanced-custom-fields/advanced-custom-fields-pro",
+            "version": "5.8.9",
+            "type": "wordpress-plugin",
+            "dist": {
+              "type": "zip",
+              "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%PLUGIN_ACF_KEY}&t={%VERSION}"
+            },
+            "require": {
+              "composer/installers": "^1.4",
+              "ffraenz/private-composer-installer": "^3"
+            }
+          }
         }
     ],
     "scripts": {
