@@ -30,6 +30,7 @@ final class Init
 			Api\Customizer::class,
 			Api\Gutenberg::class,
 			Api\Widgets\TextWidget::class,
+			Plugins\Plate::class
 		];
 	}
 
