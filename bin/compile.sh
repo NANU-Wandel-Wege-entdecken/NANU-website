@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# thanks to https://andy-carter.com/blog/automating-npm-and-composer-with-git-hooks
+
 changedFiles="$(git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD)"
 
 runOnChange() {
