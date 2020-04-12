@@ -37,13 +37,15 @@ mix.autoload({
 
 mix.setPublicPath( './assets/dist' );
 
+mix.options({ processCssUrls: false });
+
 // Compile assets
-mix.js( 'assets/src/scripts/app.js', 'assets/dist/js' )
-	.js( 'assets/src/scripts/admin.js', 'assets/dist/js' )
-	.react( 'assets/src/scripts/gutenberg.js', 'assets/dist/js' )
-	.sass( 'assets/src/sass/style.scss', 'assets/dist/css' )
-	.sass( 'assets/src/sass/admin.scss', 'assets/dist/css' )
-  .sass( 'assets/src/sass/gutenberg.scss', 'assets/dist/css' )
+mix.sass( 'assets/src/sass/style.scss', 'assets/dist/css' )
+  // .js( 'assets/src/scripts/app.js', 'assets/dist/js' )
+	// .js( 'assets/src/scripts/admin.js', 'assets/dist/js' )
+	// .react( 'assets/src/scripts/gutenberg.js', 'assets/dist/js' )
+	// .sass( 'assets/src/sass/admin.scss', 'assets/dist/css' )
+  // .sass( 'assets/src/sass/gutenberg.scss', 'assets/dist/css' )
   .tailwind();
 
 // Add versioning to assets in production environment
@@ -53,7 +55,7 @@ if ( mix.inProduction() ) {
 
 if (!mix.inProduction()) {
   mix.webpackConfig({
-      devtool: 'source-map'
+      devtool: 'cheap-source-map'
   })
   .sourceMaps()
 }
