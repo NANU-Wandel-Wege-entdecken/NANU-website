@@ -66,7 +66,7 @@ if (! function_exists('mix')) {
 		}
 		$rootDir = dirname(__FILE__, 2);
 		if (file_exists($rootDir . '/' . $manifestDirectory.'/hot')) {
-			return getenv('WP_SITEURL') . ":8080" . $path;
+			return get_site_url() . ":8080" . $path;
 		}
 		if (! $manifest) {
 			$manifestPath =  $rootDir . $manifestDirectory . 'mix-manifest.json';
