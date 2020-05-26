@@ -4,14 +4,14 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c6605f3ad556b92932ea25d77c8d7010",
+    "content-hash": "c4ebd05b1d57355accb7fccd32ea307d",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
             "version": "5.8.9",
             "dist": {
                 "type": "zip",
-                "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%PLUGIN_ACF_KEY}&t=5.8.9"
+                "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%PLUGIN_KEY_ACF}&t=5.8.9"
             },
             "require": {
                 "composer/installers": "^1.4",
@@ -1548,15 +1548,15 @@
         },
         {
             "name": "wpackagist-plugin/mailpoet",
-            "version": "3.47.0",
+            "version": "3.47.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mailpoet/",
-                "reference": "tags/3.47.0"
+                "reference": "tags/3.47.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailpoet.3.47.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/mailpoet.3.47.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
