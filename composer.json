@@ -108,7 +108,7 @@
                 "type": "wordpress-plugin",
                 "dist": {
                     "type": "zip",
-                    "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%PLUGIN_ACF_KEY}&t={%VERSION}"
+                    "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%PLUGIN_KEY_ACF}&t={%VERSION}"
                 },
                 "require": {
                     "composer/installers": "^1.4",
