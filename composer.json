@@ -11,6 +11,7 @@
     "require": {
         "php": "^7.2",
         "advanced-custom-fields/advanced-custom-fields-pro": "^5.8",
+        "deliciousbrains-plugin/wp-migrate-db-pro": "^1.9",
         "koodimonni-language/core-de_de": "^5.4",
         "wordplate/framework": "^8.0",
         "wordplate/mail": "^4.0",
