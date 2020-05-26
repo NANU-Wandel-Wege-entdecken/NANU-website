@@ -51,6 +51,9 @@ $application = new WordPlate\Application(
 */
 
 // define('WP_ALLOW_MULTISITE', env('WP_ALLOW_MULTISITE', true));
+define( 'BE_MEDIA_FROM_PRODUCTION_URL', env( 'PRODUCTION_CDN_URL', false ) );
+
+define( 'WPMDB_LICENCE', env( 'PLUGIN_KEY_WPMDB', false ) );
 
 /*
 |--------------------------------------------------------------------------
