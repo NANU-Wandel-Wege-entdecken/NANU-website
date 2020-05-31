@@ -55,6 +55,9 @@ define( 'BE_MEDIA_FROM_PRODUCTION_URL', env( 'PRODUCTION_CDN_URL', false ) );
 
 define( 'WPMDB_LICENCE', env( 'PLUGIN_KEY_WPMDB', false ) );
 
+define( 'WPMDB_ANONYMIZATION_USER_LOGIN_WHITELIST', env( 'WPMDB_ANONYMIZATION_USER_LOGIN_WHITELIST', false ) );
+define( 'WPMDB_ANONYMIZATION_DEFAULT_PASSWORD', env( 'WPMDB_ANONYMIZATION_DEFAULT_PASSWORD', false ) );
+
 /*
 |--------------------------------------------------------------------------
 | WordPress Database Table Prefix
