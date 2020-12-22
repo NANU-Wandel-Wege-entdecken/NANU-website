@@ -1,27 +1,9 @@
-# WordPlate
+# NANU - redesign and new stack
 
-[![WordPlate](https://cloud.githubusercontent.com/assets/499192/24309675/09eec350-10cd-11e7-98f3-094003bc8e15.png)](https://wordplate.github.io)
+In this repository we are working on the redesign and the new stack for the website "NANU - Wandel-Wege entdecken". We want to have a project where we all can learn and create a more sustainable, secure, fast and beautiful website that the readers of NANU will love.
 
-WordPlate is a modern WordPress stack which simplifies WordPress development.
+Just have a look into the issues and jump in discussing, thinking, dreaming and developing with us! We look forward to you and your contributions - and hope we can learn from each other.
 
-```sh
-$ composer create-project wordplate/wordplate
-```
+## Credits
 
-[![Build Status](https://badgen.net/travis/wordplate/framework/master)](https://travis-ci.org/wordplate/framework)
-[![Coverage Status](https://badgen.net/codecov/c/github/wordplate/framework)](https://codecov.io/github/wordplate/framework)
-[![Total Downloads](https://badgen.net/packagist/dt/wordplate/framework)](https://packagist.org/packages/wordplate/framework)
-[![Latest Version](https://badgen.net/github/release/wordplate/wordplate)](https://github.com/wordplate/wordplate/releases)
-[![License](https://badgen.net/packagist/license/wordplate/wordplate)](https://packagist.org/packages/wordplate/wordplate)
-
-## Documentation
-
-Visit the [official documentation](https://wordplate.github.io/) page if you want to dive right in and start building WordPress applications with WordPlate. The documentation is thorough, complete, and makes it a breeze to get started learning WordPlate.
-
-## Contributing
-
-Please review our [contribution guidelines](https://github.com/wordplate/framework/blob/master/CONTRIBUTING.md) before submitting a pull request.
-
-## License
-
-[MIT](LICENSE) © [Vincent Klaiber](https://doubledip.se)
+We use [WordPlate](https://github.com/wordplate/) as the wrapper around WordPress.
