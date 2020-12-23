@@ -13,7 +13,7 @@
         "advanced-custom-fields/advanced-custom-fields-pro": "^5.8",
         "deliciousbrains-plugin/wp-migrate-db-pro": "1.9.10",
         "koodimonni-language/core-de_de": "^5.4",
-        "wordplate/framework": "^8.0",
+        "wordplate/framework": "^9.0",
         "wordplate/mail": "^4.0",
         "wordplate/plate": "^6.0",
         "wpackagist-plugin/advanced-access-manager": "^6.5",
@@ -112,7 +112,7 @@
                 },
                 "require": {
                     "composer/installers": "^1.4",
-                    "ffraenz/private-composer-installer": "^3"
+                    "ffraenz/private-composer-installer": "^5.0"
                 }
             }
         }
