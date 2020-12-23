@@ -11,7 +11,7 @@
     "require": {
         "php": "^7.2",
         "advanced-custom-fields/advanced-custom-fields-pro": "^5.8",
-        "deliciousbrains-plugin/wp-migrate-db-pro": "^1.9",
+        "deliciousbrains-plugin/wp-migrate-db-pro": "1.9.10",
         "koodimonni-language/core-de_de": "^5.4",
         "wordplate/framework": "^8.0",
         "wordplate/mail": "^4.0",
@@ -22,7 +22,7 @@
         "wpackagist-plugin/bounce-handler-mailpoet": "^1.3",
         "wpackagist-plugin/boxzilla": "^3.2",
         "wpackagist-plugin/cdn-enabler": "^1.0",
-        "wpackagist-plugin/clean-image-filenames": "1.2.1",
+        "wpackagist-plugin/clean-image-filenames": "^1.2.1",
         "wpackagist-plugin/comment-moderation-e-mail-to-post-author": "^0.5.0",
         "wpackagist-plugin/comment-notifier-no-spammers": "^1.5",
         "wpackagist-plugin/contact-form-7": "^5.1",
@@ -40,7 +40,7 @@
         "wpackagist-plugin/rocket-lazy-load": "^2.3",
         "wpackagist-plugin/safe-report-comments": "^0.4.1",
         "wpackagist-plugin/safe-svg": "^1.9",
-        "wpackagist-plugin/seo-by-rank-math": "1.0.42.3",
+        "wpackagist-plugin/seo-by-rank-math": "^1.0.42.3",
         "wpackagist-plugin/shareadraft": "^1.5",
         "wpackagist-plugin/shariff": "^4.6",
         "wpackagist-plugin/show-parent-comment": "^0.2.1",
@@ -104,7 +104,7 @@
             "type": "package",
             "package": {
                 "name": "advanced-custom-fields/advanced-custom-fields-pro",
-                "version": "5.8.9",
+                "version": "5.9.3",
                 "type": "wordpress-plugin",
                 "dist": {
                     "type": "zip",
