@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0cf60e185f5ccb4c14fb4d675083b9ac",
+    "content-hash": "596eb7dff3f2356c9893c552f4408985",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -1437,59 +1437,6 @@
                 "source": "https://github.com/wordplate/mail/tree/master"
             },
             "time": "2018-03-15T13:37:36+00:00"
-        },
-        {
-            "name": "wordplate/plate",
-            "version": "6.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/wordplate/plate.git",
-                "reference": "9e9ff9ba2b08dda1735cfc5d34943a12105153b3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wordplate/plate/zipball/9e9ff9ba2b08dda1735cfc5d34943a12105153b3",
-                "reference": "9e9ff9ba2b08dda1735cfc5d34943a12105153b3",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.2"
-            },
-            "type": "wordpress-plugin",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "6.1-dev"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Vincent Klaiber",
-                    "email": "hello@doubledip.se",
-                    "homepage": "https://doubledip.se"
-                },
-                {
-                    "name": "Chris Andersson",
-                    "email": "hello@puredazzle.se",
-                    "homepage": "https://puredazzle.se"
-                }
-            ],
-            "description": "A theme support plugin for WordPlate",
-            "keywords": [
-                "plate",
-                "plugin",
-                "wordplate",
-                "wordpress"
-            ],
-            "support": {
-                "issues": "https://github.com/wordplate/plate/issues",
-                "source": "https://github.com/wordplate/plate/tree/master"
-            },
-            "abandoned": true,
-            "time": "2019-08-08T13:02:18+00:00"
         },
         {
             "name": "wpackagist-plugin/advanced-access-manager",

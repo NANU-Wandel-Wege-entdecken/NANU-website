@@ -15,7 +15,6 @@
         "koodimonni-language/core-de_de": "^5.4",
         "wordplate/framework": "^9.0",
         "wordplate/mail": "^4.0",
-        "wordplate/plate": "^6.0",
         "wpackagist-plugin/advanced-access-manager": "^6.5",
         "wpackagist-plugin/antispam-bee": "^2.9",
         "wpackagist-plugin/be-media-from-production": "^1.6",
