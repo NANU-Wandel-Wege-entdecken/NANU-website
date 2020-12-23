@@ -33,10 +33,10 @@ class Enqueue
 		wp_enqueue_style( 'main', mix('css/style.css'), array(), '1.0.0', 'all' );
 
 		// JS
-		//wp_enqueue_script( 'main', mix('js/app.js'), array(), '1.0.0', true );
+        //wp_enqueue_script( 'main', mix('js/app.js'), array(), '1.0.0', true );
 
 		// Activate browser-sync on development environment
-		if ( getenv( 'APP_ENV' ) === 'development' ) :
+		if ( in_array( env( 'WP_ENVIRONMENT_TYPE' ), [ 'local', 'development' ] ) ) :
 			wp_enqueue_script( '__bs_script__', get_site_url() . ':3000/browser-sync/browser-sync-client.js', array(), null, true );
 		endif;
 
