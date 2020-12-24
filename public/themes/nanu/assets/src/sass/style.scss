@@ -8,22 +8,20 @@
 --------------------------------------------------------------*/
 
 @import "tailwindcss/base";
-
 @import "tailwindcss/components";
-
 @import "tailwindcss/utilities";
 
 /*--------------------------------------------------------------
 # Base
 --------------------------------------------------------------*/
-@import 'base/variables';
-@import 'base/mixins';
-@import 'base/animations';
-@import 'base/body';
-@import 'base/containers';
-@import 'base/grid';
-@import 'base/spacing';
-@import 'base/wordpress';
+// @import 'base/variables';
+// @import 'base/mixins';
+// @import 'base/animations';
+// @import 'base/body';
+// @import 'base/containers';
+// @import 'base/grid';
+// @import 'base/spacing';
+// @import 'base/wordpress';
 // @import 'base/forms';
 
 /*--------------------------------------------------------------
@@ -48,3 +46,6 @@
 --------------------------------------------------------------*/
 // @import 'pages/home';
 
+body {
+  background-color: blue !important;
+}
