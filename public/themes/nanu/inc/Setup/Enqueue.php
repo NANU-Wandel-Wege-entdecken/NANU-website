@@ -40,7 +40,7 @@ class Enqueue
 
 		// Activate browser-sync on development environment
 		if ( in_array( env( 'WP_ENV' ), [ 'local', 'development' ] ) ) :
-			wp_enqueue_script( '__bs_script__', get_site_url() . ':3000/browser-sync/browser-sync-client.js', array(), null, true );
+			wp_enqueue_script( '__bs_script__', home_url() . ':3000/browser-sync/browser-sync-client.js', array(), null, true );
 		endif;
 
 		// Extra
