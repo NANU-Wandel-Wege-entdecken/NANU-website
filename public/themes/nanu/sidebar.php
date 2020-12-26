@@ -12,12 +12,6 @@ if ( ! is_active_sidebar( 'nanu-sidebar' ) ) :
 endif;
 ?>
 
-<?php
-if ( is_customize_preview() ) {
-	echo '<div id="nanu-sidebar-control"></div>';
-}
-?>
-
 <aside id="secondary" class="widget-area" role="complementary">
 	<?php
 	dynamic_sidebar( 'nanu-sidebar' );

@@ -22,15 +22,9 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-	<div id="page" class="site" <?php echo ! is_customize_preview() ?: 'style="padding: 0 40px;"'; ?>>
+	<div id="page" class="site">
 
 		<header id="masthead" class="site-header" role="banner">
-
-			<?php
-			if ( is_customize_preview() ) {
-				echo '<div id="nanu-header-control"></div>';
-			}
-			?>
 
 			<div class="container container-fluid">
 
@@ -46,7 +40,7 @@
 							</h1>
 							<?php
 							$description = get_bloginfo( 'description', 'display' );
-							if ( $description || is_customize_preview() ) :
+							if ( $description ) :
 							?>
 								<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
 							<?php

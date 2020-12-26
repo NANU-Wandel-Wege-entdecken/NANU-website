@@ -78,11 +78,6 @@ class Gutenberg
 	 */
 	public function gutenberg_enqueue()
 	{
-		wp_register_script( 'gutenberg-nanu', get_template_directory_uri() . '/assets/dist/js/gutenberg.js', array( 'wp-blocks', 'wp-element', 'wp-editor' ) );
-
-		register_block_type( 'gutenberg-nanu/nanu-cta', array(
-			'editor_script' => 'gutenberg-nanu', // Load script in the editor
-		) );
 	}
 
 	/**
@@ -91,6 +86,5 @@ class Gutenberg
 	 */
 	public function gutenberg_assets()
 	{
-		wp_enqueue_style( 'gutenberg-nanu-cta', get_template_directory_uri() . '/assets/dist/css/gutenberg.css', null );
 	}
 }
