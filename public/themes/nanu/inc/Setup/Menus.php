@@ -22,7 +22,7 @@ class Menus
             Register all your menus here
         */
         register_nav_menus(array(
-            'primary' => esc_html__( 'Primary', 'nanu' ),
+            // 'primary' => esc_html__( 'Primary', 'nanu' ),
         ));
     }
 }
