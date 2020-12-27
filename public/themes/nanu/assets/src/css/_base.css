@@ -1,4 +1,42 @@
 @import "tailwindcss/base";
 
 @layer base {
+  html {
+    font-size: 16px;
+    @apply text-grey-dark;
+  }
+  body {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  h1 {
+    font-size: 3.625rem;
+    line-height: 4.125rem;
+    font-weight: bold;
+    @apply pb-8;
+  }
+  h2 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    font-weight: bold;
+    @apply pb-5;
+  }
+  h3 {
+    font-size: 1.625rem;
+    line-height: 1.75rem;
+    font-weight: bold;
+    @apply pb-3;
+  }
+  p {
+    @apply pb-7;
+  }
+  a {
+    @apply text-red hover:text-red-dark;
+  }
+  ul {
+    @apply list-inside list-disc pb-8 pl-4;
+  }
+  li {
+    @apply pb-2;
+  }
 }
