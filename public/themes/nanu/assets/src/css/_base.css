@@ -65,4 +65,8 @@
   li {
     @apply pb-2;
   }
+  .label {
+    transform: rotate(90deg);
+    transform-origin: 0 95%;
+  }
 }
