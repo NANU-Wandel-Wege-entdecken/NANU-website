@@ -1,31 +1,57 @@
 @import "tailwindcss/base";
 
 @layer base {
+  @font-face {
+    font-family: 'nunito_sans_regular';
+    src: url('../fonts/nunitosans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/nunitosans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'nunito_sans_italic';
+    src: url('../fonts/nunitosans-italic-webfont.woff2') format('woff2'),
+         url('../fonts/nunitosans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'nunito_sans_bold';
+    src: url('../fonts/nunitosans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/nunitosans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'nunito_sans_extrabold';
+    src: url('../fonts/nunitosans-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/nunitosans-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
   html {
     font-size: 16px;
-    @apply text-grey-dark;
   }
   body {
     font-size: 1.125rem;
     line-height: 1.75rem;
+    @apply text-grey-dark font-nunitoreg;
   }
   h1 {
     font-size: 3.625rem;
     line-height: 4.125rem;
-    font-weight: bold;
-    @apply pb-8;
+    @apply pb-8 font-nunitobold;
   }
   h2 {
     font-size: 2.5rem;
     line-height: 2.75rem;
-    font-weight: bold;
-    @apply pb-5;
+    @apply pb-5 font-nunitoxbold;
   }
   h3 {
     font-size: 1.625rem;
     line-height: 1.75rem;
-    font-weight: bold;
-    @apply pb-3;
+    @apply pb-3 font-nunitobold;
   }
   p {
     @apply pb-7;
