@@ -1,7 +1,7 @@
 {
   "name": "nanu",
   "version": "3.0.4",
-  "description": "Alecaddd WordPress Starter Theme for savvy developers",
+  "description": "theme of nanu",
   "main": "index.js",
   "scripts": {
     "dev": "npm run development",
@@ -10,13 +10,13 @@
     "watch-poll": "mix watch -- --watch-options-poll=1000",
     "hot": "mix watch --hot",
     "prod": "npm run production",
-    "production": "mix --production",
-    "lint": "eslint \"./**/*.js\""
+    "production": "mix --production"
   },
+  "dependencies": {},
   "devDependencies": {
-    "@babel/preset-react": "^7.12.10",
+    "autoprefixer": "^10.1.0",
     "browser-sync": "^2.26.13",
-    "browser-sync-webpack-plugin": "^2.3.0",
+    "browser-sync-webpack-plugin": "^2.2.2",
     "cross-env": "^7.0.3",
     "dotenv": "^8.2.0",
     "eslint": "^5.13.0",
@@ -53,7 +53,7 @@
     "autoprefixer": "^10.1.0",
     "eslint-config-wordpress": "^2.0.0",
     "normalize-scss": "^7.0.1",
-    "postcss": "^8.2.10",
+    "postcss": "^8.2.1",
     "slick-carousel": "^1.8.1"
   }
 }

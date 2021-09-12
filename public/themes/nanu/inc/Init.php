@@ -25,11 +25,8 @@ final class Init
 			Setup\Menus::class,
 			Setup\Enqueue::class,
 			Custom\PostTypes::class,
-			Custom\Admin::class,
 			Custom\Extras::class,
-			Api\Customizer::class,
 			Api\Gutenberg::class,
-			Api\Widgets\TextWidget::class
 		];
 	}
 

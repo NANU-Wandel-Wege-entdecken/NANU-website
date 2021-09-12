@@ -1,11 +1,7 @@
 {
-    "name": "wordplate/wordplate",
-    "description": "A modern WordPress stack built with Composer",
+    "name": "nanu/website",
+    "description": "nanu magazin website",
     "keywords": [
-        "wordplate",
-        "wordpress",
-        "boilerplate",
-        "plate"
     ],
     "license": "MIT",
     "require": {
@@ -69,8 +65,7 @@
     "extra": {
         "installer-paths": {
             "public/mu-plugins/{$name}": [
-                "type:wordpress-muplugin",
-                "wordplate/plate"
+                "type:wordpress-muplugin"
             ],
             "public/plugins/{$name}": [
                 "type:wordpress-plugin"
