@@ -1,7 +1,7 @@
 # ![Nanu](http://www.alecaddd.com/wp-content/uploads/2017/05/Nanu-logo.png)
 > A Modern WordPress Starter Theme for savvy Developers
 
-[![Build Status](https://travis-ci.org/Alecaddd/Nanu.svg?branch=master)](https://travis-ci.org/Alecaddd/Nanu) ![Dependecies](https://david-dm.org/Alecaddd/Nanu.svg) ![NPM latest](https://img.shields.io/npm/v/npm.svg) ![GPL License](https://img.shields.io/badge/license-GPLv3-blue.svg) [![Code Climate](https://codeclimate.com/github/Alecaddd/Nanu/badges/gpa.svg)](https://codeclimate.com/github/Alecaddd/Nanu)
+[![Build Status](https://travis-ci.org/Alecaddd/awps.svg?branch=master)](https://travis-ci.org/Alecaddd/awps) ![Dependecies](https://david-dm.org/Alecaddd/awps.svg) ![NPM latest](https://img.shields.io/npm/v/npm.svg) ![GPL License](https://img.shields.io/badge/license-GPLv3-blue.svg) [![Code Climate](https://codeclimate.com/github/Alecaddd/awps/badges/gpa.svg)](https://codeclimate.com/github/Alecaddd/awps)
 
 ## Prerequisites
 
@@ -45,4 +45,4 @@ AWPS uses [Laravel Mix](https://laravel.com/docs/5.6/mix) for assets management.
 
 ## License
 
-[GPLv3](https://github.com/Alecaddd/Nanu/blob/master/LICENSE.txt)
+[GPLv3](https://github.com/Alecaddd/awps/blob/master/LICENSE.txt)

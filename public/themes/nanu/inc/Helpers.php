@@ -66,21 +66,21 @@ if (! function_exists('mix')) {
 		}
 		$rootDir = dirname(__FILE__, 2);
 		if (file_exists($rootDir . '/' . $manifestDirectory.'/hot')) {
-			return get_site_url() . ":8080" . $path;
+			return getenv('WP_SITEURL') . ":8080" . $path;
 		}
 		if (! $manifest) {
 			$manifestPath =  $rootDir . $manifestDirectory . 'mix-manifest.json';
 			if (! file_exists($manifestPath)) {
 				throw new Exception('The Mix manifest does not exist.');
 			}
-            $manifest = json_decode(file_get_contents($manifestPath), true);
+			$manifest = json_decode(file_get_contents($manifestPath), true);
 		}
 
 		if (starts_with($manifest[$path], '/')) {
 			$manifest[$path] = ltrim($manifest[$path], '/');
 		}
 
-        $path = $manifestDirectory . $manifest[$path];
+		$path = $manifestDirectory . $manifest[$path];
 
 		return get_template_directory_uri() . $path;
 	}
