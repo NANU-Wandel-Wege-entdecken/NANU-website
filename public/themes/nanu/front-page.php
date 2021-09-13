@@ -37,10 +37,10 @@ get_header(); ?>
         <div class="
         row-start-2 row-span-2 col-start-1 col-span-12
 		md:row-start-1 md:row-span-2 md:col-start-5 md:col-span-8
-		lg:row-start-1 lg:row-span-3 lg:col-start-5 lg:col-span-8
+		lg:row-start-1 lg:row-span-3 lg:col-start-5 lg:col-span-8 lg:mb-4
 		xl:col-start-5 xl:col-span-8
 		z-10">
-            <img class="shadow-hero" src="/themes/nanu/assets/dist/images/danni-haus.jpg">
+            <img class="shadow-hero" src="/themes/nanu/assets/dist/images/danni-haus.jpg" width="1088px" height="604px">
         </div>
     </div>
 </section>
