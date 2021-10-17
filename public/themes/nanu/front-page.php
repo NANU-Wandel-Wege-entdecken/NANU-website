@@ -78,29 +78,5 @@ get_header(); ?>
     </div>
 </section>
 
-
-<section id="cta-newsletter" class="bg-pink border-t-4 border-b-4 border-pink-light text-white py-20">
-    <div class="container m-auto px-2">
-        CTA NEWSLETTER
-    </div>
-</section>
-
-
-<section id="books" class="container m-auto px-2 py-20">
-    <h2>Unsere <span class="text-red">Buchempfehlungen</span></h2>
-</section>
-
-
-<section id="cta-participate" class="bg-grey py-20">
-    <div class="container m-auto px-2">
-        CTA PARTICIPATE
-    </div>
-</section>
-
-
-<section id="pages" class="container m-auto px-2 py-20">
-PAGES
-</section>
-
 <?php
 get_footer();

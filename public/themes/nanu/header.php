@@ -34,22 +34,6 @@
                     </a>
                 </div><!-- .site-branding -->
 
-                <nav id="site-navigation" class="main-navigation flex justify-end content-center" role="navigation">
-                    <div class="self-center text-red">MENU</div>
-                    <div class="self-center"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/dist/svg/menu.svg" class="p-2"></div>
-                    <?php
-                    if ( has_nav_menu( 'primary' ) ) :
-                        wp_nav_menu(
-                            array(
-                                'theme_location' => 'primary',
-                                'menu_id'        => 'primary-menu',
-                                'walker'         => new Nanu\Core\WalkerNav(),
-                            )
-                        );
-                    endif;
-                    ?>
-                </nav>
-
 		    </div><!-- .container-fluid -->
 
 	    </header><!-- #masthead -->
