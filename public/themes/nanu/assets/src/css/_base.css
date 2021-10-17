@@ -41,30 +41,47 @@
   h1 {
     font-size: 3.625rem;
     line-height: 4.125rem;
-    @apply pb-8 font-nunitobold;
+    @apply pb-12 font-nunitobold;
   }
   h2 {
     font-size: 2.5rem;
     line-height: 2.75rem;
-    @apply pb-5 font-nunitoxbold;
+    @apply py-8 font-nunitoxbold;
   }
   h3 {
     font-size: 1.625rem;
     line-height: 1.75rem;
-    @apply pb-3 font-nunitobold;
+    @apply py-5 font-nunitobold;
+  }
+  h1, h2, h3 {
+	@apply max-w-screen-lg m-auto;
   }
   p {
-    @apply pb-7;
+    @apply pb-7 max-w-screen-md m-auto;
   }
   a {
     @apply text-red hover:text-red-dark;
   }
+  ol, ul {
+	@apply pb-8 pl-8 max-w-screen-md m-auto;
+  }
+  ol {
+	list-style: decimal;
+  }
   ul {
-    @apply list-inside list-disc pb-8 pl-4;
+    @apply list-inside list-disc;
   }
   li {
-    @apply pb-2;
+    @apply pb-4;
   }
+  .wp-block-image.size-full {
+	@apply pb-12 max-w-screen-lg m-auto;
+  }
+  .wp-block-image.size-large, .wp-block-image {
+	@apply pb-12 max-w-screen-md m-auto;
+}
+
+/* Frontpage */
   .grid-rows-hero {
     grid-template-rows: 4.5rem auto auto 1fr;
   }
@@ -108,5 +125,25 @@
   .label {
     transform: rotate(90deg);
     transform-origin: 0 95%;
+  }
+
+/* Single */
+  h1.entry-title {
+	@apply text-center;
+  }
+  .entry-meta {
+    @apply text-sm font-nunitoxbold pb-8 max-w-screen-md m-auto;
+  }
+  .wp-block-quote {
+	@apply text-2xl font-nunitoxbold pt-4 pb-12 max-w-screen-lg m-auto;
+  }
+  .wp-block-quote p {
+	@apply text-2xl font-nunitoxbold pb-1 max-w-screen-lg;
+  }
+  .wp-block-quote cite {
+	@apply text-lg;
+  }
+  .wp-block-embed, .shariff, .entry-footer {
+	@apply pb-8 max-w-screen-lg m-auto;
   }
 }
