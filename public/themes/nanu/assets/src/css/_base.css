@@ -146,4 +146,11 @@
   .wp-block-embed, .shariff, .entry-footer {
 	@apply pb-8 max-w-screen-lg m-auto;
   }
+  .wp-block-gallery {
+    @apply py-12 max-w-screen-2xl m-auto;
+  }
+  .wp-block-gallery ul {
+    @apply pb-2 max-w-screen-2xl;
+	list-style-type: none;
+  }
 }
