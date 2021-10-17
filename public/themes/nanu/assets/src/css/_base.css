@@ -79,7 +79,10 @@
   }
   .wp-block-image.size-large, .wp-block-image {
 	@apply pb-12 max-w-screen-md m-auto;
-}
+  }
+  .posts-navigation {
+	@apply py-8 max-w-screen-lg m-auto;
+  }
 
 /* Frontpage */
   .grid-rows-hero {
@@ -152,5 +155,16 @@
   .wp-block-gallery ul {
     @apply pb-2 max-w-screen-2xl;
 	list-style-type: none;
+  }
+
+/* Archive */
+  .archive .entry-content, .archive .entry-footer {
+	@apply max-w-screen-md m-auto;
+  }
+  .archive .entry-content {
+	@apply pb-8;
+  }
+  .archive .entry-footer {
+	@apply text-sm font-nunitoxbold;
   }
 }
