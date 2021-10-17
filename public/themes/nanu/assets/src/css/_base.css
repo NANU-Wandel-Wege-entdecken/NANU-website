@@ -1,4 +1,112 @@
 @import "tailwindcss/base";
 
 @layer base {
+  @font-face {
+    font-family: 'nunito_sans_regular';
+    src: url('../fonts/nunitosans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/nunitosans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'nunito_sans_italic';
+    src: url('../fonts/nunitosans-italic-webfont.woff2') format('woff2'),
+         url('../fonts/nunitosans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'nunito_sans_bold';
+    src: url('../fonts/nunitosans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/nunitosans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'nunito_sans_extrabold';
+    src: url('../fonts/nunitosans-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/nunitosans-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  html {
+    font-size: 16px;
+  }
+  body {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    @apply text-grey-dark font-nunitoreg;
+  }
+  h1 {
+    font-size: 3.625rem;
+    line-height: 4.125rem;
+    @apply pb-8 font-nunitobold;
+  }
+  h2 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    @apply pb-5 font-nunitoxbold;
+  }
+  h3 {
+    font-size: 1.625rem;
+    line-height: 1.75rem;
+    @apply pb-3 font-nunitobold;
+  }
+  p {
+    @apply pb-7;
+  }
+  a {
+    @apply text-red hover:text-red-dark;
+  }
+  ul {
+    @apply list-inside list-disc pb-8 pl-4;
+  }
+  li {
+    @apply pb-2;
+  }
+  .grid-rows-hero {
+    grid-template-rows: 4.5rem auto auto 1fr;
+  }
+  .grid-rows-hero h2::before {
+	content: "";
+	max-width: 35%;
+	width: 35%;
+	height: 1.6rem;
+	border-bottom: solid 7px #CB5853;
+	display: block;
+	position: absolute;
+	margin-left: -0.4rem;
+	opacity: 0.8;
+  }
+  @media (min-width: 640px) {
+	.grid-rows-hero h2::before {
+		width: 11rem;
+		height: 1.9rem;
+	}
+  }
+  @media (min-width: 768px) {
+    .grid-rows-hero {
+      grid-template-rows: 2rem auto auto 1fr;
+    }
+	.grid-rows-hero h2::before {
+		width: 15rem;
+		height: 2.1rem;
+	}
+  }
+  @media (min-width: 1280px) {
+    .grid-rows-hero {
+      grid-template-rows: 4rem auto auto 1fr;
+    }
+	.grid-rows-hero h2::before {
+		height: 2.3rem;
+	}
+  }
+  .shadow-hero {
+    box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.6);
+  }
+  .label {
+    transform: rotate(90deg);
+    transform-origin: 0 95%;
+  }
 }

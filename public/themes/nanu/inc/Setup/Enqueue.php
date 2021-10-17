@@ -24,6 +24,10 @@ class Enqueue
 	 */
 	public function enqueue_scripts()
 	{
+		// Deregister the built-in version of jQuery from WordPress
+		if ( ! is_customize_preview() ) {
+			wp_deregister_script( 'jquery' );
+		}
 
 		// CSS
 		wp_enqueue_style( 'base',       mix('css/_base.css'),       [], '1.0.0', 'all' );
