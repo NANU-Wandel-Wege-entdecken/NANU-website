@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "beca85dfb7cb83ee3bd0e57bab3ec5d3",
+    "content-hash": "81cd19f289d2e87498bebf00cc82e9e2",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -169,18 +169,6 @@
                 }
             ],
             "time": "2021-09-13T08:19:44+00:00"
-        },
-        {
-            "name": "deliciousbrains-plugin/wp-migrate-db-pro",
-            "version": "1.9.10",
-            "dist": {
-                "type": "zip",
-                "url": "https://composer.deliciousbrains.com/?wc-api=delicious-brains&request=composer_download&package=wp-migrate-db-pro&version=1.9.10"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin"
         },
         {
             "name": "ffraenz/private-composer-installer",
