@@ -7,7 +7,6 @@
     "require": {
         "php": "^7.2",
         "advanced-custom-fields/advanced-custom-fields-pro": "^5.8",
-        "deliciousbrains-plugin/wp-migrate-db-pro": "1.9.10",
         "koodimonni-language/core-de_de": "^5.4",
         "wordplate/framework": "^9.0",
         "wordplate/mail": "^5.0",
@@ -89,10 +88,6 @@
         {
             "type": "composer",
             "url": "https://wp-languages.github.io"
-        },
-        {
-            "type": "composer",
-            "url": "https://composer.deliciousbrains.com"
         },
         {
             "type": "package",
