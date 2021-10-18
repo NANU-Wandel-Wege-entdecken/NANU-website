@@ -9,9 +9,19 @@
 		"vlucas/phpdotenv": "^5.2.0"
 	},
 	"require-dev": {
+		"roave/security-advisories": "dev-master",
+		"php-parallel-lint/php-parallel-lint": "^1.2",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+		"wp-coding-standards/wpcs": "^2.3"
 	},
 	"autoload": {
 		"psr-4": { "Nanu\\": "./inc" },
 		"files": [ "./inc/Helpers.php" ]
+	},
+	"scripts": {
+		"test": ["@phpcs", "@parallel-lint"],
+		"phpcs": "phpcs",
+		"parallel-lint": "parallel-lint --blame --exclude vendor/ ."
 	}
 }

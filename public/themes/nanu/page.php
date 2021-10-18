@@ -14,7 +14,7 @@
 
 get_header(); ?>
 
-<div class="container">
+<div class="container m-auto px-2 py-20">
 
 	<div class="row">
 

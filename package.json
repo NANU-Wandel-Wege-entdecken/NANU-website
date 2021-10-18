@@ -1,4 +1,7 @@
 {
-    "private": true,
-    "scripts": {}
+  "name": "nanu-wordplate",
+  "version": "0.1",
+  "description": "system of nanu",
+  "private": true,
+  "scripts": {}
 }

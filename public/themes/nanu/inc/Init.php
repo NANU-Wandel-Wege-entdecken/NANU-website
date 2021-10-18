@@ -26,7 +26,7 @@ final class Init
 			Setup\Enqueue::class,
 			Custom\PostTypes::class,
 			Custom\Extras::class,
-			Api\Gutenberg::class,
+			Api\Gutenberg::class
 		];
 	}
 

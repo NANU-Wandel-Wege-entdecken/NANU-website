@@ -1,4 +1,179 @@
 @import "tailwindcss/base";
 
 @layer base {
+  @font-face {
+    font-family: 'nunito_sans_regular';
+    src: url('../fonts/nunitosans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/nunitosans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'nunito_sans_italic';
+    src: url('../fonts/nunitosans-italic-webfont.woff2') format('woff2'),
+         url('../fonts/nunitosans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'nunito_sans_bold';
+    src: url('../fonts/nunitosans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/nunitosans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'nunito_sans_extrabold';
+    src: url('../fonts/nunitosans-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/nunitosans-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  html {
+    font-size: 16px;
+  }
+  body {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    @apply text-grey-dark font-nunitoreg;
+  }
+  h1 {
+    font-size: 3.625rem;
+    line-height: 4.125rem;
+    @apply pb-12 font-nunitobold;
+  }
+  h2 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    @apply py-8 font-nunitoxbold;
+  }
+  h3 {
+    font-size: 1.625rem;
+    line-height: 1.75rem;
+    @apply py-5 font-nunitobold;
+  }
+  h1, h2, h3 {
+	@apply max-w-screen-lg m-auto;
+  }
+  p {
+    @apply pb-7 max-w-screen-md m-auto;
+  }
+  a {
+    @apply text-red hover:text-red-dark;
+  }
+  .site-content img {
+	@apply m-auto;
+  }
+  ol, ul {
+	@apply pb-8 pl-8 max-w-screen-md m-auto;
+  }
+  ol {
+	list-style: decimal;
+  }
+  ul {
+    @apply list-inside list-disc;
+  }
+  li {
+    @apply pb-4;
+  }
+  .wp-block-image.size-full {
+	@apply pb-12 max-w-screen-xl m-auto;
+  }
+  .wp-block-image.size-large {
+	@apply pb-12 max-w-screen-lg m-auto;
+  }
+  .wp-block-image {
+	@apply text-center pb-12 max-w-screen-md m-auto;
+  }
+  .posts-navigation {
+	@apply py-8 max-w-screen-lg m-auto;
+  }
+
+/* Frontpage */
+  .grid-rows-hero {
+    grid-template-rows: 4.5rem auto auto 1fr;
+  }
+  .grid-rows-hero h2::before {
+	content: "";
+	max-width: 35%;
+	width: 35%;
+	height: 1.6rem;
+	border-bottom: solid 7px #CB5853;
+	display: block;
+	position: absolute;
+	margin-left: -0.4rem;
+	opacity: 0.8;
+  }
+  @media (min-width: 640px) {
+	.grid-rows-hero h2::before {
+		width: 11rem;
+		height: 1.9rem;
+	}
+  }
+  @media (min-width: 768px) {
+    .grid-rows-hero {
+      grid-template-rows: 2rem auto auto 1fr;
+    }
+	.grid-rows-hero h2::before {
+		width: 15rem;
+		height: 2.1rem;
+	}
+  }
+  @media (min-width: 1280px) {
+    .grid-rows-hero {
+      grid-template-rows: 4rem auto auto 1fr;
+    }
+	.grid-rows-hero h2::before {
+		height: 2.3rem;
+	}
+  }
+  .shadow-hero {
+    box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.6);
+  }
+  .home h2 {
+	  @apply max-w-screen-2xl;
+  }
+  .label {
+    transform: rotate(90deg);
+    transform-origin: 0 95%;
+  }
+
+/* Single */
+  h1.entry-title {
+	@apply text-center;
+  }
+  .entry-meta {
+    @apply text-sm font-nunitoxbold pb-8 max-w-screen-md m-auto;
+  }
+  .wp-block-quote {
+	@apply text-2xl font-nunitoxbold pt-4 pb-12 max-w-screen-lg m-auto;
+  }
+  .wp-block-quote p {
+	@apply text-2xl font-nunitoxbold pb-1 max-w-screen-lg;
+  }
+  .wp-block-quote cite {
+	@apply text-lg;
+  }
+  .wp-block-embed, .shariff, .entry-footer {
+	@apply pb-8 max-w-screen-lg m-auto;
+  }
+  .wp-block-gallery {
+    @apply text-center py-12 max-w-screen-2xl m-auto;
+  }
+  .wp-block-gallery ul {
+    @apply pb-2 max-w-screen-2xl;
+	list-style-type: none;
+  }
+
+/* Archive */
+  .archive .entry-content, .archive .entry-footer {
+	@apply max-w-screen-md m-auto;
+  }
+  .archive .entry-content {
+	@apply pb-8;
+  }
+  .archive .entry-footer {
+	@apply text-sm font-nunitoxbold;
+  }
 }

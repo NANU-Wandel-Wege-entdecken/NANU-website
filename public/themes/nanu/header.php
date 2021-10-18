@@ -24,53 +24,18 @@
 <?php wp_body_open(); ?>
 	<div id="page" class="site">
 
-		<header id="masthead" class="site-header" role="banner">
+		<header id="masthead" class="site-header bg-beige pt-2" role="banner">
 
-			<div class="container container-fluid">
+			<div class="container container-fluid m-auto grid grid-cols-2 gap-2">
 
-				<div class="row">
-					<div class="col-xs-12 col-sm-4">
+                <div class="site-branding">
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/dist/images/nanu-logo.png" alt="NANU Logo" title="NANU - Wandel Wege gehen">
+                    </a>
+                </div><!-- .site-branding -->
 
-						<div class="site-branding">
-							<h1 class="site-title">
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-									<?php svg( 'wordpress' ); ?>
-									<?php bloginfo( 'name' ); ?>
-								</a>
-							</h1>
-							<?php
-							$description = get_bloginfo( 'description', 'display' );
-							if ( $description ) :
-							?>
-								<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-							<?php
-							endif;
-							?>
-					</div><!-- .site-branding -->
+		    </div><!-- .container-fluid -->
 
-				</div><!-- .col -->
-
-				<div class="col-xs-12 col-sm-8">
-
-					<nav id="site-navigation" class="main-navigation" role="navigation">
-						<?php
-						if ( has_nav_menu( 'primary' ) ) :
-							wp_nav_menu(
-								array(
-									'theme_location' => 'primary',
-									'menu_id'        => 'primary-menu',
-									'walker'         => new Nanu\Core\WalkerNav(),
-								)
-							);
-						endif;
-						?>
-					</nav>
-
-				</div><!-- .col -->
-
-			</div><!-- .row -->
-		</div><!-- .container-fluid -->
-
-	</header><!-- #masthead -->
+	    </header><!-- #masthead -->
 
 	<div id="content" class="site-content">
