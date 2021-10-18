@@ -1,6 +1,6 @@
 {
-  "name": "nanu",
-  "version": "3.0.4",
+  "name": "nanu-theme",
+  "version": "0.1",
   "description": "theme of nanu",
   "main": "index.js",
   "scripts": {
