@@ -1,7 +1,10 @@
 module.exports = {
   purge: [
-    './src/**/*.php',
-    './src/**/*.js',
+    './inc/**/*.php',
+		'./page-templates/**/*.php',
+		'./views/**/*.php',
+		'./*.php',
+    './assets/src/**/*.js',
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
