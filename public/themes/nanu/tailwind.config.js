@@ -1,11 +1,25 @@
 module.exports = {
-  purge: [
-    './inc/**/*.php',
-		'./page-templates/**/*.php',
-		'./views/**/*.php',
-		'./*.php',
-    './assets/src/**/*.js',
-  ],
+  purge: {
+		content: [
+			'./inc/**/*.php',
+			'./page-templates/**/*.php',
+			'./views/**/*.php',
+			'./*.php',
+			'./assets/src/**/*.js',
+		],
+		safelist: [
+			'site-content',
+			'wp-block-image',
+			'size-full',
+			'size-large',
+			'figcaption',
+			'posts-navigation',
+			'wp-block-quote',
+			'wp-block-embed',
+			'shariff',
+			'wp-block-gallery',
+		]
+	},
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
