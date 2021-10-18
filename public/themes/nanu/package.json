@@ -1,6 +1,6 @@
 {
-  "name": "nanu",
-  "version": "3.0.4",
+  "name": "nanu-theme",
+  "version": "0.1.0",
   "description": "theme of nanu",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "prod": "npm run production",
     "production": "mix --production"
   },
-	"dependencies": {
+  "dependencies": {
     "autoprefixer": "^10.1.0",
     "eslint-config-wordpress": "^2.0.0",
     "normalize-scss": "^7.0.1",
