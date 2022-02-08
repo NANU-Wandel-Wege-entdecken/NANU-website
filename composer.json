@@ -40,7 +40,7 @@
         "wpackagist-plugin/shariff": "^4.6",
         "wpackagist-plugin/show-parent-comment": "^0.2.1",
         "wpackagist-plugin/simple-local-avatars": "^2.1",
-        "wpackagist-plugin/simple-tags": "^2.5",
+        "wpackagist-plugin/simple-tags": "^3.4",
         "wpackagist-plugin/spinupwp": "^1.1",
         "wpackagist-plugin/stream": "^3.4",
         "wpackagist-plugin/table-of-contents-plus": "^2002.0",
