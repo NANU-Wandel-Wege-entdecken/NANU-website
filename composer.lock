@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "beca85dfb7cb83ee3bd0e57bab3ec5d3",
+    "content-hash": "854683792ae8e003980a096c99dfc003",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -1772,18 +1772,18 @@
         },
         {
             "name": "wpackagist-plugin/q2w3-fixed-widget",
-            "version": "5.3.0",
+            "version": "6.0.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/q2w3-fixed-widget/",
-                "reference": "tags/5.3.0"
+                "reference": "tags/6.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/q2w3-fixed-widget.5.3.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/q2w3-fixed-widget.6.0.4.zip"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/q2w3-fixed-widget/"
@@ -2024,7 +2024,7 @@
         },
         {
             "name": "wpackagist-plugin/table-of-contents-plus",
-            "version": 2002,
+            "version": "2002",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/table-of-contents-plus/",
@@ -2267,5 +2267,5 @@
         "php": "^7.2"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }
