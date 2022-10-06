@@ -2024,7 +2024,7 @@
         },
         {
             "name": "wpackagist-plugin/table-of-contents-plus",
-            "version": 2002,
+            "version": "2002",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/table-of-contents-plus/",
@@ -2186,18 +2186,18 @@
         },
         {
             "name": "wpackagist-plugin/wp-optimize",
-            "version": "3.1.12",
+            "version": "3.2.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-optimize/",
-                "reference": "tags/3.1.12"
+                "reference": "tags/3.2.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-optimize.3.1.12.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-optimize.3.2.9.zip"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-optimize/"
@@ -2267,5 +2267,5 @@
         "php": "^7.2"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
