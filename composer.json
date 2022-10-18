@@ -8,7 +8,7 @@
         "php": "^7.2",
         "advanced-custom-fields/advanced-custom-fields-pro": "^5.8",
         "deliciousbrains-plugin/wp-migrate-db-pro": "1.9.10",
-        "koodimonni-language/core-de_de": "^5.4",
+        "koodimonni-language/core-de_de": "^6.0",
         "wordplate/framework": "^9.0",
         "wordplate/mail": "^5.0",
         "wpackagist-plugin/advanced-access-manager": "^6.5",
